@@ -19,7 +19,7 @@ class CreateVagasTable extends Migration
             $table->string('email', 100)->nullable();
             $table->string('companyName', 100)->nullable();
             $table->string('office', 100)->nullable();
-            $table->string('description', 100)->nullable();
+            $table->string('description', 1000)->nullable();
             $table->double('value', 100)->nullable();
             $table->integer('like')->default('0');
             $table->timestamps();
